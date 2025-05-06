@@ -41,11 +41,11 @@ function speak() {
       }
     }
     utter.onstart = () => {
-      face.setAttribute("src", "/assets/images/smiling-open.png");
+      face.setAttribute("src", "assets/images/smiling-open.png");
       face.setAttribute("alt", "Smiling open face");
     };
     utter.onend = () => {
-      face.setAttribute("src", "/assets/images/smiling.png");
+      face.setAttribute("src", "assets/images/smiling.png");
       face.setAttribute("alt", "Smiling face");
     };
     synth.speak(utter);
